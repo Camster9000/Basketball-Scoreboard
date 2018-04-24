@@ -1,0 +1,48 @@
+<html>
+<div id="WIRECAST">
+<div id="scoreboard">
+<img src="https://i.minus.com/iwSf0QAB4FAvm.png" alt="Scoreboard_arrow_RED" width="29" height="59" id="team1_pos_arrow" />
+<span id="team1">WEST<br />ALLEGHENY</span>
+<div id="team1_to1"></div>
+<div id="team1_to2"></div>
+<div id="team1_to3"></div>
+<span id="team1_score">0</span>
+<img src="https://i.minus.com/iAem8vhIStopP.png" alt="Scoreboard_arrow_BLUE" width="29" height="59" id="team2_pos_arrow" />
+<span id="team2">CHARTIERS<br />VALLEY</span>
+<div id="team2_to1"></div>
+<div id="team2_to2"></div>
+<div id="team2_to3"></div>
+<span id="team2_score">0</span>
+<div id="clock"><span id="clock_min">12</span>:<span id="clock_sec">00</span></div>
+<span id="downdist">Pre-Game</span>
+<span id="flag">FLAG</span>
+<span id="qtr">1st Qtr</span>
+</div>
+<div id="subscoreboard">
+</div>
+</div>
+
+<div id="control_area">
+WA Score: <input type="text" name="team1_score" value="0" id="team1_score_input" /> <button id="team1_plus6">+6</button><button id="team1_plus1">+1</button><button id="team1_plus3">+3</button><button id="team1_plus2">+2</button><button id="team1_score_update">UPDATE</button><button id="team1_pos">WA Possession</button><br />
+WA Timeouts: <button id="team1_3to">3 TO</button><button id="team1_2to">2 TO</button><button id="team1_1to">1 TO</button><button id="team1_0to">0 TO</button>
+<br /><br />
+
+CV Score: <input type="text" name="team2_score" value="0" id="team2_score_input" /> <button id="team2_plus6">+6</button><button id="team2_plus1">+1</button><button id="team2_plus3">+3</button><button id="team2_plus2">+2</button><button id="team2_score_update">UPDATE</button><button id="team2_pos">CV Possession</button><button id="pos_off">Possession Off</button><br />
+CV Timeouts: <button id="team2_3to">3 TO</button><button id="team2_2to">2 TO</button><button id="team2_1to">1 TO</button><button id="team2_0to">0 TO</button>
+<br /><br />
+
+Clock: <input type="text" name="clock_min" value="12" id="clock_input_min" style="width:25px;" />:<input type="text" name="clock_sec" value="00" id="clock_input_sec" style="width:25px;" /> <button id="clock_update">UPDATE</button><button id="clock_start">START CLOCK</button><button id="clock_stop">STOP CLOCK</button><button id="clock_plus">+</button><button id="clock_minus">-</button>
+<div style="font-weight:normal">Left Arrow: START CLOCK<br />
+Right Arrow: STOP CLOCK<br />
+Up Arrow: PLUS SECOND<br />
+Down Arrow: MINUS SECOND</div>
+<br />
+
+Down & Distance / Message: <input type="text" name="downdist" value="" id="downdist_input" /> <button id="show_msg">SHOW</button><button id="show_kickoff">Kickoff</button><button id="show_1st10">1st & 10</button><button id="show_timeout">Timeout</button><br /><br />
+
+FLAG: <button id="flag_on">FLAG ON</button><button id="flag_off">FLAG OFF</button><br /><br />
+
+Quarter: <button id="qtr_1">1st</button><button id="qtr_2">2nd</button><button id="qtr_half">HALF</button><button id="qtr_3">3rd</button><button id="qtr_4">4th</button><button id="qtr_ot">OT</button><button id="qtr_final">FINAL</button><br /><i style="font-weight:normal;">Updating the quarter also resets the clock.</i><br /><br />
+
+</div>
+</html>  

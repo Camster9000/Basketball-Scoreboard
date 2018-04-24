@@ -1,0 +1,194 @@
+body {
+  background: #00ff00;
+  font-family: "Helvetica";
+  font-weight: bold; }
+
+#WIRECAST {
+  display: block;
+  height: 140px; }
+
+#control_area {
+  background: white;
+  padding: 30px; }
+
+#scoreboard {
+  background: url('https://i.minus.com/iCJF3W1tx89Xr.jpg');
+  height: 71px;
+  margin: 30px auto 0 auto;
+  position: relative;
+  width: 1210px;
+  z-index: 1; }
+
+#subscoreboard {
+  background: #818181; /* Old browsers */
+    background: -moz-linear-gradient(top, #818181 0%, #484848 100%); /* FF3.6+ */
+    background: -ms-linear-gradient(top, #818181 0%,#484848 100%); /* IE10+ */
+    background: -o-linear-gradient(top, #818181 0%,#484848 100%); /* Opera 11.10+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#818181), color-stop(100%,#484848)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #818181 0%,#484848 100%); /* Chrome10+,Safari5.1+ */
+    background: linear-gradient(to bottom, #818181 0%,#484848 100%); /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#818181', endColorstr='#484848',GradientType=0 ); /* IE6-9 */
+  border: 4px solid #e5e5e5;
+  border-top: 0;
+  color: white;
+  font-size: 20px;
+  height: 30px;
+  margin: 0 auto 0 auto;
+  margin-top: -42px;
+  padding-top: 7px;
+  text-align: center;
+  transition: margin 1s ease-in-out;
+    -moz-transition: margin 1s; /* Firefox 4 */
+    -o-transition: margin 1s; /* Opera */
+    -webkit-transition: margin 1s; /* Safari and Chrome */
+  width: 1000px;
+  z-index: -1; }
+
+#team1 {
+  color: white;
+  display: block;
+  float: left;
+  font-size: 13.01pt;
+  margin-left: -18px;
+  padding-top: 15px;
+  width: 103px; }
+
+#team1_score {
+  color: white;
+  display: block;
+  float: left;
+  font-size: 40.01pt;
+  margin-left: 25px;
+  padding-top: 5px;
+  text-align: right;
+  width: 65px; }
+
+#team2 {
+  color: white;
+  display: block;
+  float: left;
+  font-size: 13.01pt;
+  margin-left: -15px;
+  padding-top: 15px;
+  width: 103px; }
+
+#team2_score {
+  color: white;
+  display: block;
+  float: left;
+  font-size: 40.01pt;
+  margin-left: 25px;
+  padding-top: 5px;
+  text-align: right;
+  width: 65px; }
+
+#clock {
+  color: white;
+  display: block;
+  float: left;
+  font-size: 30.01pt;
+  margin-left: 17px;
+  padding-top: 12px;
+  text-align: center;
+  width: 142px; }
+
+#downdist {
+  color: white;
+  display: block;
+  float: left;
+  font-size: 25.01pt;
+  margin-left: 6px;
+  padding-top: 16px;
+  text-align: center;
+  width: 182px; }
+
+#flag {
+  background: url(https://i.minus.com/iA1lYinXSWA9G.jpg);
+  color: black;
+  color: white;
+  display: block;
+  display: none;
+  float: left;
+  font-size: 25.01pt;
+  margin-left: 6px;
+  margin-top: 6px;
+  padding-bottom: 11px;
+  padding-top: 10px;
+  text-align: center;
+  width: 182px; }
+
+#qtr {
+  color: white;
+  display: block;
+  float: left;
+  font-size: 25.01pt;
+  margin-left: 6px;
+  padding-top: 16px;
+  text-align: center;
+  width: 135px; }
+
+#team1_pos_arrow {
+  float: left;
+  margin-left: 287px;
+  padding-top: 6px;
+  visibility: hidden; }
+
+#team2_pos_arrow {
+  float: left;
+  margin-left: 18px;
+  padding-top: 6px;
+  visibility: hidden; }
+
+#team1_to1 {
+  background: #9a0a10;
+  float: left;
+  height: 6px;
+  margin-left: 320px;
+  margin-top: 65px;
+  position: absolute;
+  width: 40px; }
+
+#team1_to2 {
+  background: #9a0a10;
+  float: left;
+  height: 6px;
+  margin-left: 375px;
+  margin-top: 65px;
+  position: absolute;
+  width: 40px; }
+
+#team1_to3 {
+  background: #9a0a10;
+  float: left;
+  height: 6px;
+  margin-left: 430px;
+  margin-top: 65px;
+  position: absolute;
+  width: 40px; }
+
+#team2_to1 {
+  background: #003fb7;
+  float: left;
+  height: 6px;
+  margin-left: 544px;
+  margin-top: 65px;
+  position: absolute;
+  width: 40px; }
+
+#team2_to2 {
+  background: #003fb7;
+  float: left;
+  height: 6px;
+  margin-left: 599px;
+  margin-top: 65px;
+  position: absolute;
+  width: 40px; }
+
+#team2_to3 {
+  background: #003fb7;
+  float: left;
+  height: 6px;
+  margin-left: 654px;
+  margin-top: 65px;
+  position: absolute;
+  width: 40px; }
